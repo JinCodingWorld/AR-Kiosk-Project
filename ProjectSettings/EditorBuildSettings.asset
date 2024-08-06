@@ -6,6 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Log-01-01.unity
+    guid: f6db63909e75f7647aaf864206781a4d
+  - enabled: 1
+    path: Assets/Scenes/Log-02-01.unity
+    guid: c4427353194955647a659a1b838d442c
+  - enabled: 1
+    path: Assets/Scenes/Log-02-02.unity
+    guid: 92210b6fb9e9f9b469d50791d53f92a5
+  - enabled: 1
+    path: Assets/Scenes/Log-02-03.unity
+    guid: c198e913190cbe04a9aadf9da45950bf
+  - enabled: 1
+    path: Assets/Scenes/Log-03-01.unity
+    guid: d7944c5a2cb68f94285f05e64f480a7d
+  - enabled: 1
+    path: Assets/Scenes/Log-04-01.unity
+    guid: 2f9e94d671120c648873fa89bd9cc94c
+  - enabled: 1
+    path: Assets/Scenes/MainScene(Lotte Cinema).unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MainScene(Mega Coffee).unity
+    guid: a481b6333a1b60442900c8ea3d867e9f
   m_configObjects: {}
