@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class GoogleVisionAPI : MonoBehaviour
 {
-    private string apiKey = "AIzaSyC54yBM_zkDNQc8-_ZlaPJjr1JN8mqIZsA"; // Replace with your actual API key
+    private string apiKey = ""; // Replace with your actual API key
     private string url = "https://vision.googleapis.com/v1/images:annotate?key=";
     public Text resultText; // UI Text to display results
 
@@ -78,11 +78,11 @@ public class GoogleVisionAPI : MonoBehaviour
                 resultText.text = detectedText;
 
                 // Check for specific text and trigger actions
-                if (detectedText.Contains("¸ÅÁ¡"))
+                if (detectedText.Contains("Â¸Ã…ÃÂ¡"))
                 {
                     SceneManager.LoadScene(7);
                 }
-                else if(detectedText.Contains("Æ¼ÄÏ±¸¸Å"))
+                else if(detectedText.Contains("Ã†Â¼Ã„ÃÂ±Â¸Â¸Ã…"))
                 {
                     SceneManager.LoadScene(7);
                 }
