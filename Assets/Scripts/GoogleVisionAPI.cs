@@ -7,12 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class GoogleVisionAPI : MonoBehaviour
 {
-    private string apiKey = ""; // Replace with your actual API key
+    private string apiKey = "AIzaSyC54yBM_zkDNQc8-_ZlaPJjr1JN8mqIZsA"; // Replace with your actual API key
     private string url = "https://vision.googleapis.com/v1/images:annotate?key=";
     public Text resultText; // UI Text to display results
+    public GoogleTranslation translationAPI; // Reference to GoogleTranslation script
 
     public GameObject ToCheck;
 
+    public Text translatedText; // New UI Text to display the translated text
     public void CallVisionAPI(Texture2D texture)
     {
         StartCoroutine(Upload(texture));
@@ -78,14 +80,23 @@ public class GoogleVisionAPI : MonoBehaviour
                 resultText.text = detectedText;
 
                 // Check for specific text and trigger actions
-                if (detectedText.Contains("¸ÅÁ¡"))
+                if (detectedText.Contains("��Ÿ��"))
                 {
                     SceneManager.LoadScene(7);
                 }
-                else if(detectedText.Contains("Æ¼ÄÏ±¸¸Å"))
+                else if (detectedText.Contains("LANGUAGE"))
                 {
-                    SceneManager.LoadScene(7);
+                    translationAPI.TranslateText("LANGUAGE");
                 }
+                else if (detectedText.Contains("HOT"))
+                {
+                    translationAPI.TranslateText("HOT");
+                }
+                else if (detectedText.Contains("hot"))
+                {
+                    translationAPI.TranslateText("hot");
+                }
+
             }
             else
             {
