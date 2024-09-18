@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class GoogleVisionAPI : MonoBehaviour
 {
-    private string apiKey = "AIzaSyC54yBM_zkDNQc8-_ZlaPJjr1JN8mqIZsA"; // Replace with your actual API key
+    private string apiKey = "   "; // api 키 집어넣기
     private string url = "https://vision.googleapis.com/v1/images:annotate?key=";
     public Text resultText; // UI Text to display results
     public GoogleTranslation translationAPI; // Reference to GoogleTranslation script
@@ -80,7 +80,7 @@ public class GoogleVisionAPI : MonoBehaviour
                 resultText.text = detectedText;
 
                 // Check for specific text and trigger actions
-                if (detectedText.Contains("��Ÿ��"))
+                if (detectedText.Contains("ºñÅ¸¹Î"))
                 {
                     SceneManager.LoadScene(7);
                 }
