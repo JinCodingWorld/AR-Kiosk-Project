@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GoogleTranslation : MonoBehaviour
 {
-    private string apiKey = "  "; // Replace with your actual Translation API key
+    private string apiKey = "  "; // API key 집어넣기
     private string url = "https://translation.googleapis.com/language/translate/v2?key=";
     public Text translatedText; // UI Text to display the translated text
 
