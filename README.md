@@ -2,7 +2,7 @@
 
 1. **게임설명** : 디지털 소외 계층인 고령자들을 위한 키오스크 증강현실(AR) 콘텐츠 제작
 2. **제작기간** : 24.4.8 ~ 24.9.2
-3. **유튜브 영상** : [내 손안의 키오스크](https://youtu.be/DO94RlasXu4)
+3. **유튜브 영상** : [내 손안의 키오스크 도우미](https://youtu.be/DO94RlasXu4)
 4. **개발과정**
    - Google Cloud API 서비스를 사용하기 위해 Nuget 패키지와 API 키를 사용하여 4가지 기능(Cloud Vision, STT, TTS, Translation API)를 구현하였습니다.
    - 슬라이더로 돋보기 기능을 사용하기 위해 WebCamTexture 클래스를 통해 휴대폰 카메라 디바이스를 가져오고, RawImage의 텍스처에 입혀주어 휴대폰 화면에 출력하도록 하였습니다.
