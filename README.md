@@ -1,7 +1,5 @@
 # 내 손안의 키오스크
 
----
-
 1. **게임설명** : 디지털 소외 계층인 고령자들을 위한 키오스크 증강현실(AR) 콘텐츠 제작
 2. **제작기간** : 24.4.8 ~ 24.9.2
 3. **유튜브 영상** : [내 손안의 키오스크](https://youtu.be/DO94RlasXu4)
@@ -17,3 +15,14 @@
 
 ## 프로젝트 개요서, 수행계획서, 개발보고서, 제작설계서 첨부
 - <https://drive.google.com/drive/folders/1FGy-p7iJd5zJpWaYiSj3JrBHzWvxivop?usp=sharing>
+  
+---
+  
+## 이미지 첨부
+<img src= "https://github.com/user-attachments/assets/207550c5-a644-4aeb-9b10-27e79815bd47" width="40%">  
+<img src = "https://github.com/user-attachments/assets/042de945-e2f0-4c4a-8105-fabf17d8e613" width= "40%">
+<img width="40%" alt="01" src="https://github.com/user-attachments/assets/0a2719a7-8382-4cf5-8dfe-baa2d2d6f987">
+<img src = "https://github.com/user-attachments/assets/58c2ed1d-a135-4c1c-bf09-525de8237a34" width = "40%">
+<img width="40%" alt="04" src="https://github.com/user-attachments/assets/dee4b084-75b4-42bb-99c9-00cc69c01fd2">
+<img width="40%" alt="05" src="https://github.com/user-attachments/assets/f09cc18f-4496-4116-a81d-cd172b5a9095">
+<img width="40%" alt="06" src="https://github.com/user-attachments/assets/839409d5-f7aa-471d-8ebc-bb44eb2a1803">
